@@ -3,10 +3,10 @@
 在实现过程中的一些原则：
 1. 不要把所有的package都拉平，拉平了之后会有很多问题。例如：
 ```python3
-from odoo.technology.db.sql import SQL
-from odoo.technology.db import SQL
-from odoo.technology import SQL
-from odoo import SQL
+from odoo.technology.db.sql import SQL # 从一个文件中导出符号
+from odoo.technology.db import SQL # 从包中导出符号
+from odoo.technology import SQL # 从上层包中导出符号
+from odoo import SQL # 从最顶层包中导出符号
 ```
 这四种模式都可以导入SQL的时候，这样会带来：
 
