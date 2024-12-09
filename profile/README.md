@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+在某些原因下想将Odoo以Golang进行重新实现，研究后发现Odoo有很多问题。所以，这里将原来Golang重新实现的想法变为拆解Odoo。增强其各方面能力。
+
+如有意向可联系：guowei1651@gmail.com
+
+
 <!--
 
 **Here are some ideas to get you started:**
