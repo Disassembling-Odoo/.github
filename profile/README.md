@@ -54,7 +54,7 @@ Odoo是上个世纪的产物，但它没有跟上世界的脚步。例如：微�
 
 
 
-### 明确的缺点
+### 2. 明确的缺点
 从几个方面说：
 1. odoo还在使用服务端渲染的方式进行渲染，无法进行前后端分离，不利于SEO优化。
 2. odoo的可扩展性大部分是基于Python的解释性语言进行的，没有提供更多的能力。
@@ -65,9 +65,6 @@ Odoo是上个世纪的产物，但它没有跟上世界的脚步。例如：微�
 
 
 在某些原因下想将Odoo以Golang进行重新实现，研究后发现Odoo有[很多问题](https://github.com/Disassembling-Odoo/.github/blob/main/README.md)。所以，这里将原来Golang重新实现的想法变为拆解Odoo。增强其各方面能力。
-
-如有意向可联系：guowei1651@gmail.com
-
 
 <!--
 
